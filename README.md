@@ -19,6 +19,6 @@ In addition the *ClientPlayer* app keeps track of all requests that an interacti
 Clip 1, pause Clip 1, stop player, etc.). The requests are displayed in a scrollable list view maintained by the
 app.</br/>
 <br/>
-Tested by using Nexus 5 virtual device running the Android platform (API 23—Marshmallow). No backward compatibility provided.To run the app, we need to download and run the ServerAudio first and then run the ClientPlayer.
-
-PS: Built by using Android’s built-in *MediaPlayerService*.
+Built by using Android’s built-in *MediaPlayerService*. To run the app, we need to download and run the *ServerAudio* first and then run the *ClientPlayer*. <br/>
+<br/>
+*PS:Tested by using Nexus 5 virtual device running the Android platform (API 23—Marshmallow). No backward compatibility provided.*
