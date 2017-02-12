@@ -1,6 +1,6 @@
-# MusicPlayerAndroidApp-ClientPlayer
+# Music Player - *the Client*
 
-This is of one the two Android App (togethet together in sync) which will act a client between both. The first app, named *ServerAudio*
+This is of one half of the Music Player Android App which will act a client between both. The first app, named *ServerAudio*
 stores a number of audio clips, such as songs or other recordings. The clips are numbered 1 through n, where n is the total number of clips.
 The app contains a service intended to be bound (as opposed to started), which exposes an API for clients
 to use. The API supports such functionality as playing one of the audio clips, pausing the clip, resuming
@@ -19,6 +19,6 @@ In addition the *ClientPlayer* app keeps track of all requests that an interacti
 Clip 1, pause Clip 1, stop player, etc.). The requests are displayed in a scrollable list view maintained by the
 app.</br/>
 <br/>
-Tested by using Nexus 5 virtual device running the Android platform (API 23—Marshmallow). No backward compactibilty provided.
+Tested by using Nexus 5 virtual device running the Android platform (API 23—Marshmallow). No backward compatibility provided.
 
 PS: Built by using Android’s built-in *MediaPlayerService*.
